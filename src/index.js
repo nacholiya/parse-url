@@ -13,11 +13,10 @@ import parsePath from "parse-path";
  * @function
  * @param {String} url The input url.
  * @param {Boolean|Object} normalize Whether to normalize the url or not.
- *                         Default is `false`. If `true`, the url will
- *                         be normalized. If an object, it will be the
- *                         options object sent to [`normalize-url`](https://github.com/sindresorhus/normalize-url).
- *
- *                         For SSH urls, normalize won't work.
+ * Default is `false`. If `true`, the url will be normalized. If an object,
+ * it will be the options object sent to
+ * [`normalize-url`](https://github.com/sindresorhus/normalize-url). For
+ * SSH urls, normalize won't work.
  *
  * @return {Object} An object containing the following fields:
  *

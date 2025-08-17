@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "node test/index.mjs && tsd",
-    "build": "pkgroll"
+    "build": "pkgroll && sed -i '' 's|/\\*!|/**|g' dist/index.js"
   },
   "repository": {
     "type": "git",
